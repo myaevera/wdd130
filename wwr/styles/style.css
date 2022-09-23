@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="styles/style.css">
-</head>
 <body>
-
-</body>
-</html><body>
-    <div id="content">
+  <div id="content">
+      <header>
         max-width=1600px
         margin: 0 auto
         text-align:center
@@ -94,8 +87,6 @@
       .icon{
         width: 80px;
       }
-        <header>
-    . . .
         </footer>
     </div>
 </body>
