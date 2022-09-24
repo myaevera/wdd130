@@ -40,7 +40,7 @@ main section{
         background-color: #fcfbfb; 
     }
     header {
-        background-color:#003049;
+        background-color:#bcbd8b;
     }
     nav a:hover {
         background-color: black;
@@ -88,10 +88,10 @@ main section{
         color: #a1cdf4;
       }
       .msg h2{
-        color: #bcbd8b;
+        color:#776258;
       }
       .msg p{
-        color: #a1cdf4;
+        color: #776258;
       }
       footer h3{
         color: #776258;
@@ -102,6 +102,6 @@ main section{
       #hero-img{
         width: 100%;
       }
-      </footer>
+     </footer>
     </div>
 </body>
