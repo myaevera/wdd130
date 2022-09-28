@@ -1,3 +1,6 @@
+@import{
+  font-family:"Forum", Helvitica, sans-serif
+}
 <body>
   <div id="content">
   #content{
@@ -36,7 +39,7 @@ main section{
       height:725px;
       background-color: #fcfbfb;
     }
-    body {
+    body {  
         background-color: #fcfbfb; 
     }
     header {
