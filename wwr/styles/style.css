@@ -1,5 +1,10 @@
 @import{
-  font-family:"Forum", Helvitica, sans-serif
+  font-family:'Forum', Helvitica, sans-serif
+.book,.join{
+  font-family: "Mukta";
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius 5px;
 }
 <body>
   <div id="content">
@@ -12,6 +17,7 @@ nav a{
   text-align: center;
   color: #003049;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
   text-align:center;
@@ -52,15 +58,22 @@ main section{
     .book,.join{
         background-color: #a1cdf4;
         text-decoration: none;
+        padding:15px 30px;
     }
     .msg{
         background-color: #bcbd8b;
+        line-height: 1.5em;
+        padding: 35px;
     }
     footer{
         background-color: #a1cdf4;
+        padding:25px 50px;
+        margin-top: 200px;
     }
     body {
         background-color: #fcfbfb; 
+        padding: 0;
+        margin:0;
       }
     .book:hover,.join:hover{
         background-color: black;
@@ -83,18 +96,25 @@ main section{
       }
     .icon{
         width: 80px;
+        padding-top: 10px;
       }
       h4{
         color: #776258;
       }
       .home-title{
         color: #a1cdf4;
+        font-family: "Forum";
+        font-size: 2em;
+        margin-top: 10px;
       }
       .msg h2{
         color:#776258;
+        font-family: "Forum";
       }
       .msg p{
         color: #776258;
+        font-size: .8em;
+        padding-bottom:  15px;
       }
       footer h3{
         color: #776258;
@@ -105,6 +125,28 @@ main section{
       #hero-img{
         width: 100%;
       }
+      h2{
+        margin: 0;
+      }
+     .msg{
+      padding: 35px;
+     }
+     footer .social img{
+      padding-top: 15px;
+     }
+     #logo_link{
+      padding-top: 5px;
+     }
+     .rivers-card,.camping-card,rapids-card{
+      margin: 200px 0;
+     }
+     .card-img{
+      border: 10px;
+     }
+     main section img{
+      box-sizing: border-box;
+     }
+     
      </footer>
     </div>
 </body>
