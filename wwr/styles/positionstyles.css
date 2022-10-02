@@ -70,26 +70,32 @@ grid-gap: 20px;
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
 }
 .red3 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/3;
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 300px; 
   background-color: green;
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 300px; 
   background-color: gold; 
 } 
 .blue3 {
   width: 100px;
   height: 100px; 
   background-color: blue; 
+  grid-column: 1/3;
 } 
 /* Activity 4 styles */ 
 .content4 {
