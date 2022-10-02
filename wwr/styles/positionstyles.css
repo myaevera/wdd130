@@ -97,7 +97,6 @@ grid-gap: 20px;
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
   display: grid;
   grid-template-columns:100px 100px;
 }
