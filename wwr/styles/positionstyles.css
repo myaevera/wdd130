@@ -51,7 +51,7 @@ grid-gap: 20px;
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  margin-top: 100px;
+  margin-top: -75px;
   margin-left: 100px;
   z-index: 3;
 } 
@@ -59,7 +59,7 @@ grid-gap: 20px;
   width: 100px; 
   height: 100px; 
   background-color: blue;
-  margin-top: 150px;
+  margin-top: -100px;
   margin-left: 150px;
   z-index: 4;
 } 
@@ -68,7 +68,7 @@ grid-gap: 20px;
   /* This is the parent of the activity 3 boxes. */
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 80px;
+  grid-column-gap: 0px 20px 0px;
 }
 .red3 {
   width: 600px; 
