@@ -33,26 +33,44 @@ grid-gap: 20px;
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+.app{
+  display: grid;
+  grid-template-rows: 120px 1fr 120px;
+  grid-template-columns: 120px 1fr 120px;
+  grid-template-areas:"header header header"
+                      "sidebar content content"
+                      "footer footer footer"
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-row: 1;
+  grid-column: 1;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-row: 1.75;
+  grid-column: 1.75;
+  z-index: 2;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-row: 2.75;
+  grid-column: 2.75;
+  z-index: 3;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-row: 3.75; 
+  grid-column: 3.75;
+  z-index: 4;
 } 
 /* Activity 3 styles */ 
 .content3 {
