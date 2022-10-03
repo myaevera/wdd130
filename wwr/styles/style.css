@@ -1,5 +1,7 @@
-@import{
-  font-family:'Forum', Helvitica, sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Mukta&display=swap');
+body{
+  font-family: 'Forum',Helvetica, Sans-serif;
+}
 .book,.join{
   font-family: "Mukta";
   font-size: 18px;
@@ -52,6 +54,7 @@ main section{
         background-color:#003049;
         display:grid;
         grid-template-columns: 150px auto;
+        font-family: 'Forum',Helvetica,sans-serif;
     }
     nav a:hover {
         background-color: black;
