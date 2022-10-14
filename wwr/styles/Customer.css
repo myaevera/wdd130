@@ -147,6 +147,9 @@ main{
     grid-column: 2/4;
     grid-row: 1;
 }
+.ratings5{
+    width: auto;
+}
 h3{
     text-align: center;
 }
