@@ -148,19 +148,19 @@ main{
     grid-row: 1;
 }
 .ratings51{
-    width: 25px;
+    width: 100%;
     grid-column: 1;
 }
 .ratings52{
-    width: 25px;
+    width: 100%;
     grid-column: 2;
 }
 .ratings53{
-    width:25px;
+    width: 100%;
     grid-column: 3;
 }
 .ratings54{
-    width: 25px;
+    width: 100%;
     grid-column: 4;
 }
 h3{
