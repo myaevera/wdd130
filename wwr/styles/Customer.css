@@ -147,13 +147,26 @@ main{
     grid-column: 2/4;
     grid-row: 1;
 }
-.ratings5{
-    width: auto;
+.ratings51{
+    width: 25px;
+    grid-column: 1;
+}
+.ratings52{
+    width: 25px;
+    grid-column: 2;
+}
+.ratings53{
+    width:25px;
+    grid-column: 3;
+}
+.ratings54{
+    width: 25px;
+    grid-column: 4;
 }
 h3{
     text-align: center;
 }
-nav, footer {
+nav, footer{
     flex-direction: column;
 }
 nav a {
