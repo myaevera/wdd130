@@ -22,21 +22,22 @@ footer a{
 #middle{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
-.cabin-pic{
-    grid-column: 2;
-    grid-row: 2
+#cabin-pic{
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
-.middle-text{
-    grid-column: 1;
-    grid-row: 2;
+#middle-text{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+#middle h2{
     text-align: center;
 }
 #bottom{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .alpacas{
 
