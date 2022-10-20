@@ -31,7 +31,7 @@ header {
     text-align: center;
     background-color: #E9EDC9;
     margin-bottom: 150px;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-top: 15%;
     margin-left: 25px;
 }
@@ -48,10 +48,14 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 #bottom h3{
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 2/3;
     padding-left:5%;
-    margin-bottom: -10px;
+    background-color: #333745;
+    color: #F3F1E9;
+    padding-top: 75px;
+    margin: 50px;
+    margin-bottom: 225px;
 }
 #bottom-right{
     grid-column: 2/3;
@@ -62,7 +66,8 @@ header {
     padding-left: 25px;
     padding-right: 5%;
     margin-left: 30px;
-    padding-top: 0px;
+    margin-right: 30px;
+    padding-top: 75px;
 }
 #alpacas-pic{
     grid-row: 1/2;
