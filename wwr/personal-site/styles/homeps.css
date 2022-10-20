@@ -1,3 +1,6 @@
+body{
+    background-color: #F3F1E9;
+}
 header {
     background-color:#4C6663;
     display: grid;
@@ -11,16 +14,6 @@ header {
     width: 100px;
     height: 100px;
 }
-#background{
-    color: #E9EDC9;
-}
-footer{
-    background-color: #4C6663;
-    margin-top: 200px;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-}
 #middle{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -30,6 +23,7 @@ footer{
     grid-row: 2/3;
     width: 100%;
     height: 15%;
+    padding: 25px;
 }
 #middle-text{
     grid-column: 1/2;
@@ -38,22 +32,53 @@ footer{
     background-color: #E9EDC9;
     margin-bottom: 150px;
     padding-top: 15%;
+    margin-top: 15%;
+    margin-left: 25px;
 }
 #middle h2{
     text-align: center;
+    background-color: #A37A74;
+    padding: 5%;
+    width: 100%;
 }
 #bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#alpacas{
-    grid-column: 1/2;
-}
 #bottom-right{
     grid-column: 2/3;
+    grid-row: 1;
+    background-color: #A37A74;
+    margin-bottom: 150px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#alpacas-pic{
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 100px;
+    padding: 30px;
+}
+#footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer a{
     background-color: #A37A74;
     text-decoration: none;
     color: #E9EDC9;
+    grid-row: 3;
+    grid-column: 1/3 ;
+}
+footer{
+    background-color: #4C6663;
+    margin-top: 200px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    grid-column: 1/3;
+    margin-top: 1000px;
 }
